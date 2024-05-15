@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/Register"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginStart="10dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginEnd="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginBottom="10dp"
+    android:foregroundTint="#0D0E0E"
+    android:textAlignment="center"
+    android:background="@drawable/login"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="16dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="-150dp">
+
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            android:fontFamily="serif"
+            android:foregroundTint="#242525"
+            android:text="Emergency Assistance"
+            android:textAlignment="center"
+            android:textColor="#FBA30A"
+            android:textSize="34sp" />
+
+        <EditText
+            android:id="@+id/editTextText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="130dp"
+            android:layout_marginEnd="40dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:ems="10"
+            android:hint="Username"
+            android:inputType="text"
+            android:text="Username" />
+
+        <EditText
+            android:id="@+id/editTextText2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="40dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:ems="10"
+            android:hint="Password"
+            android:inputType="text"
+            android:text="Password" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="149dp"
+            android:layout_height="63dp"
+            android:layout_marginStart="155dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="155dp"
+            android:layout_marginBottom="10dp"
+            android:text="Login"
+            android:textAllCaps="false"
+            android:textColor="#F30202"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="5dp"
+            android:text="Don't have an account?"
+            android:textAlignment="center"
+            android:textColor="#0C0002"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="143dp"
+            android:layout_height="63dp"
+            android:layout_centerInParent="true"
+            android:layout_marginStart="155dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="155dp"
+            android:layout_marginBottom="10dp"
+            android:text="Sign Up"
+            android:textAllCaps="false"
+            android:textColor="#F30202"
+            android:textSize="24sp" />
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
